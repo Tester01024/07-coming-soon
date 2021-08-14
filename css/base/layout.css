@@ -1,0 +1,58 @@
+/* pradedam nuo triju foniniu spalvu */
+/* :root {
+    --primary-color: #03a9f4;  /*du minusai, kintamojo pavadinimas ir reiksme*/
+    /* --secondary-color: #ea1e63;
+
+} */
+
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.container > .row {
+    display: inline-block;
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+    background-color: yellow;
+}
+
+.container > .small-row {
+    display: inline-block;
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+    background-color: pink;
+}
+
+/* Turinio siaurinimas, Speciaus irankis leidziantis
+nustatyti specialius po=ymius. Kada ekranas pasidarys
+tam tikro plocio - 1100px, mes galesim pakeisti*/
+@media (max-width: 1100px) { 
+    .container > .row {
+        width: 800px;
+        margin: 0 calc(50% - 400px);
+        background-color: orange;
+    }
+}
+
+@media (max-width: 900px) { 
+    .container > .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+        background-color: blue;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container > .row 
+    .container > .small-row {
+        width: 100%;
+        margin: 0;
+        background-color: violet;
+    }
+}

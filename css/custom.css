@@ -1,0 +1,27 @@
+/* shis failas sutvarkys visas  kitas stiliaus dalykus, */
+/* kuriu negalejo sutvarkyti kiti css failai */
+
+/* base */
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/layout.css';
+
+/* 3-rd-party */
+
+
+/* components */
+@import './components/button.css';
+@import './components/clock.css';
+@import './components/forma.css';
+@import './components/mouse.css';
+@import './components/progress-barr.css';
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
