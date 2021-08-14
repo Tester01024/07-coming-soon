@@ -15,14 +15,14 @@
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
-    background-color: yellow;
+    //background-color: yellow;
 }
 
 .container > .small-row {
     display: inline-block;
     width: 600px;
     margin: 0 calc(50% - 300px);
-    background-color: pink;
+    //background-color: pink;
 }
 
 /* Turinio siaurinimas, Speciaus irankis leidziantis
