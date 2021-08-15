@@ -1,0 +1,110 @@
+/* shis failas sutvarkys visas  kitas stiliaus dalykus, */
+/* kuriu negalejo sutvarkyti kiti css failai */
+
+/* base */
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/layout.css';
+
+/* 3-rd-party */
+
+
+/* components */
+@import './components/button.css';
+@import './components/clock.css';
+@import './components/forma.css';
+@import './components/mouse.css';
+@import './components/progress-barr.css';
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+/* hero content */
+.hero {
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero .logo {
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.hero .main-title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+
+.hero .main-description{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #555;
+}
+
+.hero .cock {
+    margin-bottom: 40px;
+}
+
+.hero .forma {
+    margin-bottom: 20px;
+}
+
+/* main content */
+main .left-column {
+    width: 50%;
+    float: left;
+}
+
+main .right-column {
+    width: 40%;
+    float: right;
+}
+
+main .sectio-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+main .section-description {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+main .section-description > a {
+    color: var(--secondary-color);
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+main .section-description > a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 900px) {
+main .left-column {
+    width: 100%;
+    margin-bottom: 80px;
+}
+}
+
+    main .right-column {
+        width: 100%;
+    }
+
+/* footer section */
