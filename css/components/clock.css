@@ -1,15 +1,27 @@
-.clock {
+/* .clock {
     display: inline-block;
     width: 100%;
-    /*background-color: red;*/
+    color: #fff;
+} */
+.clock { /* perdarantSuGridu*/
+    display: grid; /*Sitos savybes buvimas ijungia visas kitas grid'o savybes*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(4, 1fr); /GalimaUzrasytiTaip */
+    gap: 30px; /* kaip "margin" veikia visomis kryptimis*/
+    width: 100%;
     color: #fff;
 }
 
-.clock > .time {
+
+/* .clock > .time {
     //display: inline-block;
     width: 25%;
     float: left;
     margin: 10px 0;
+} */
+.clock > .time {  /* perdarantSuGridu*/
+    //display: inline-block;
+    width: 100%;
 }
 
 .clock > .time > .value {
@@ -27,14 +39,24 @@
     font-weight: bold;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .clock > .time {
         width: 50%;
     }     
+} */
+@media (max-width: 700px) {/* perdarantSuGridu*/
+    .clock {
+    grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 500px) {
+
+
+/* @media (max-width: 500px) {
     .clock > .time {
         width: 100%;
-    }     
+    }
+} */
+@media (max-width: 500px) { /* perdarantSuGridu*/
+    .clock {
+        grid-template-columns: 1fr;
 }
