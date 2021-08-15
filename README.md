@@ -9,7 +9,8 @@ _Tester01024 website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-Tester01024.github.io/Tester01024-coming-soon/
+Site published at https://tester01024.github.io/07-coming-soon/
+!https://front-end-by-Tester01024.github.io/Tester01024-coming-soon/
 
 Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
