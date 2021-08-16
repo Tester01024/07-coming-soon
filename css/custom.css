@@ -12,9 +12,9 @@
 /* components */
 @import './components/button.css';
 @import './components/clock.css';
-@import './components/forma.css';
+@import './components/form.css';
 @import './components/mouse.css';
-@import './components/progress-barr.css';
+@import './components/progress-bar.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -54,11 +54,11 @@
     color: #555;
 }
 
-.hero .cock {
+.hero .clock {
     margin-bottom: 40px;
 }
 
-.hero .forma {
+.hero .form {
     margin-bottom: 20px;
 }
 
@@ -69,13 +69,13 @@ main .left-column {
 }
 
 main .right-column {
-    width: 40%;
+    width: 35%;
     float: right;
 }
 
 main .sectio-title {
-    text-transform: uppercase;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 main .section-description {
@@ -103,8 +103,8 @@ main .left-column {
 }
 }
 
-    main .right-column {
+    /* main .right-column {
         width: 100%;
-    }
+    } */
 
 /* footer section */
