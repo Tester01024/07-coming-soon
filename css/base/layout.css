@@ -15,14 +15,14 @@
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
-    //background-color: yellow;
+    /*background-color: yellow; */
 }
 
 .container > .small-row {
     display: inline-block;
     width: 600px;
     margin: 0 calc(50% - 300px);
-    //background-color: pink;
+    /*background-color: pink; */
 }
 
 /* Turinio siaurinimas, Speciaus irankis leidziantis
@@ -32,7 +32,7 @@ tam tikro plocio - 1100px, mes galesim pakeisti*/
     .container > .row {
         width: 800px;
         margin: 0 calc(50% - 400px);
-        //background-color: orange;
+        /*background-color: orange; */
     }
 }
 
@@ -40,7 +40,7 @@ tam tikro plocio - 1100px, mes galesim pakeisti*/
     .container > .row {
         width: 600px;
         margin: 0 calc(50% - 300px);
-        //background-color: blue;
+        /*background-color: blue; */
     }
 }
 
@@ -53,6 +53,6 @@ tam tikro plocio - 1100px, mes galesim pakeisti*/
     .container > .small-row {
         width: 100%;
         margin: 0;
-        background-color: violet;
+        /* background-color: violet; */
     }
 }
